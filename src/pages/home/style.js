@@ -1,7 +1,7 @@
 import { makeStyles } from "@mui/styles";
 export const useStyles = makeStyles((theme) => ({
     homeContainer: {
-
+   paddingTop: '90px',
         [theme.breakpoints.down("sm")]: {
             paddingTop: '54px',
 
